@@ -1,3 +1,154 @@
 body {
-    margin: 0;
-} 
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #1f1f1f;
+}
+
+.container {
+  width: min(100%, 600px);
+  padding: 30px 35px;
+  margin-inline: auto;
+  border: #b9b9b9 2px solid;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.subtitle {
+  color: #b9b9b9;
+  font-size: 28px;
+  font-weight: regular;
+  margin: 0;
+}
+
+img {
+  width: 90px;
+  height: 100%;
+  padding-right: 20px;
+}
+
+.food-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.price {
+  background: #f0f0f0;
+  width: 60px;
+  padding: 5px 0;
+  border-radius: 20px;
+}
+
+.price,
+.num {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text,
+.caption {
+  font-weight: regular;
+  color: #b9b9b9;
+  margin: 0;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.food-list {
+  padding: 40px 0;
+}
+
+.food {
+  display: flex;
+  background: greenyellow;
+}
+
+.pop-up {
+  display: none;
+  background-color: white;
+  width: 600px;
+  height: 840px;
+  padding: 35px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px #666;
+}
+
+.img-big {
+  width: min(100%, 280px);
+  margin: 0 auto;
+  height: 280px;
+  display: block;
+  padding: 40px 0;
+}
+
+.caption {
+  font-size: 16px;
+}
+
+.food-information {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  border: #f0f0f0 solid 1px;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.nutrition-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background: #1f1f1f;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.counter {
+  background: #f0f0f0;
+  padding: 15px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-btn {
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-container {
+  text-align: right;
+}
